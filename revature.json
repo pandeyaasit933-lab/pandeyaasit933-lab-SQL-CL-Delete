@@ -1,0 +1,15 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/DeleteRecordsTest.java",
+      "testCases": [
+        {
+          "methodName": "deleteTest",
+          "label": "Verify Steve is removed from the database",
+          "description": "Runs problem1(), then queries the site_user table to confirm that all records with the firstname 'Steve' were deleted and the remaining users match the expected list."
+        }
+      ]
+    }
+  ]
+}
